@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/fav.png
+Logo: "portfolio/assets/img/favicon.png"
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/emklemkl
