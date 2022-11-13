@@ -1,0 +1,27 @@
+.nav {
+    margin-right: 20em;
+    margin-top: -5.7em;
+}
+
+.nav a {
+    width: 70em;
+    margin: auto;
+    color: $font-color;
+    font-family: 'Poor Story', cursive;
+    text-decoration: none;
+    font-size: $text-size * 2;
+}
+
+.active a { // Current page
+    color: $font-alternative-color;
+    text-shadow: 0.1em 0.1em 0.5em $font-alternative-color;
+}
+
+.mouselogo {
+    max-width: 5%;
+    height: auto;
+    object-position: right top;
+    float: right;
+    position: relative;
+    left: -2em;
+}

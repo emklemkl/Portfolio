@@ -2,25 +2,6 @@
     overflow-y: hidden !important;
     transition: height 0.5s ease-in !important;
 }
-/* Från style.css */
-.nav {
-    margin-right: 20em;
-    margin-top: -5.7em;
-}
-.nav a {
-    width: 70em;
-    margin: auto;
-    font-family: 'Poor Story', cursive;
-    text-decoration: none;
-    font-size: 1.1em * 2;
-}
-.active a {  
-    color: darkblue;
-    text-shadow: 0.1em 0.1em 0.5em black;
-}
-/* Från style.css */
-
-
 
 .nav ul {
     display: flex;
@@ -72,8 +53,4 @@
         text-align: center;
         cursor: pointer;
     }
-}
-
-.hidden {
-    display: none !important;
 }

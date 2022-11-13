@@ -1,0 +1,22 @@
+
+
+@mixin p-margins-size {
+    font-size: 1.1em;
+    line-height: 1.3;
+    margin: auto;
+    width: 60em;
+    padding: 1.4em;
+}
+
+.modern {
+    
+    @include p-margins-size;
+    color: rgb(48, 45, 45);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.old-fashioned {
+    @include p-margins-size;
+    font-family: fantasy;
+}// TEST FÖR UPPGIFTER, utkommenterad i code.scss
