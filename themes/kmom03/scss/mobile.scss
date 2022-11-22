@@ -1,0 +1,107 @@
+@media screen and (max-width: 767px) {
+    .screen-width {
+        width: 767px;
+    }
+
+    body {
+        padding-left: 1rem;
+        overflow-x: hidden;
+    }
+
+    .main {
+        width: 550px;
+    }
+
+    .landingpage {
+        margin-left: 1rem;
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+    }
+
+    .title-box {
+        grid-row: 1 / 2;
+        grid-column: 1 / 1;
+        font-family: 'Poor Story';
+        font-size: 2em;
+        height: 5rem;
+        width: 400px;
+        margin-top: -2rem;
+        
+        h2 {
+            position: relative;
+            left: 4rem;
+        }
+    }
+
+    .tech-box {
+        position: relative;
+        border: 2px solid rgb(15, 9, 9);
+        border-radius: 4%;
+        height: 10rem;
+        overflow: hidden;
+        width: 400px;
+
+        &:hover {
+            text-shadow: 0.1em 0.1em 0.7em $font-alternative-color;
+            box-shadow: 0.3em 0.3em 2em $font-alternative-color;
+        }
+
+        h2 {
+            position: absolute;
+            font-size: 2em;
+            color: $font-color;
+            background-color: rgba($color: #f5f5f5, $alpha: 0.6);
+            border-radius: 20%;
+            font-family: 'Poor Story';
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0 auto;
+            padding-left: 0.2rem;
+            z-index: 2;
+        }
+
+        img {
+            width: 100%;
+            height: 102%;
+            object-fit: cover;
+        }
+
+        &.html {
+            grid-row: 2 / 3;
+            grid-column: 1 / 2;
+        }
+
+        &.css {
+            grid-row: 3 / 4;
+            grid-column: 1/2;
+        }
+
+        &.js {
+            grid-row: 4/5;
+            grid-column: 1/2;
+        }
+
+        &.php {
+            grid-row: 5/6;
+            grid-column: 1/2;
+        }
+
+        &.python {
+            grid-row: 6/7;
+            grid-column: 1/2;
+        }
+
+        &.git {
+            grid-row: 7/8;
+            grid-column: 1/2;
+        }
+
+        &.sqlite {
+            grid-row: 8/9;
+            grid-column: 1/2;
+        }
+    }
+}

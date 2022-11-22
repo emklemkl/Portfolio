@@ -1,9 +1,8 @@
 body {
-    background-color: $background-color;
+    background: linear-gradient(163deg, #faece5 47%, #faa9eb 80%, #ff9a9a 92%);
     width: 60em;
     margin: 0 auto;
-    
-
+    background-attachment: fixed;
 }
 
 * {
@@ -29,12 +28,11 @@ body {
     height: auto;
     border: 0.1em solid $font-alternative-color;
     margin-left: 4em;
-    
+
 }
 
 .me-text {
     font-family: 'Poor Story', cursive;
-
 }
 
 .site-title {
