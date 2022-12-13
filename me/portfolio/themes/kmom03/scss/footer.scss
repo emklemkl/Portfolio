@@ -1,0 +1,14 @@
+
+.footer {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    background-color: $footer;
+    border: 6px outset $background-darker-color;
+    
+    .social a i {
+        padding: 0 0.5em 0 0.5em;
+        color: $font-alternative-color !important;
+    }
+    margin-top: 2em;
+}

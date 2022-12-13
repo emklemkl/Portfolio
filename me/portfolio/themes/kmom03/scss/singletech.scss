@@ -1,0 +1,42 @@
+.singletech {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+}
+
+
+.sidebar {
+    margin-top: 1.5em;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    
+    li {
+        list-style-type: none;
+        font-family: 'Poor Story';
+        margin-top: 0.5em;
+    }
+    
+    a {
+        padding-left: 0.5em;
+        font-size: 2em;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sidebar {
+        display: none;
+    }
+
+    .singletech {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr;
+    }
+
+    .techinfo {
+        border-top: 1px solid #000;
+        grid-row: 1/7;
+        grid-column: 2/3;
+    }
+}

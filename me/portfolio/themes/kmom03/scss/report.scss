@@ -1,0 +1,254 @@
+.colors {
+    margin-bottom: 2em;
+    filter: hue-rotate($filterDegree);
+
+    h2 {
+        color: $background-darker-color;
+        ;
+    }
+}
+
+.load {
+    margin-bottom: 2em;
+    filter: hue-rotate($filterDegree);
+
+    h2 {
+        color: $background-darker-color;
+        ;
+    }
+}
+
+.design-principles {
+    filter: hue-rotate($filterDegree);
+
+    h2 {
+        color: $background-darker-color;
+        ;
+    }
+}
+
+#reportMain {
+    display: flex;
+    justify-content: center;
+}
+
+.pic-color-grid {
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(9, 1fr);
+    height: 20em;
+    margin: 1em;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    border-top: 1px solid #000;
+
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        grid-row: 1/11;
+        grid-column: 1/7;
+        border: #898989 solid 1;
+        
+    }
+
+    .colors-h3 {
+        display: flex;
+        justify-content: center;
+        grid-row: 1/2;
+        grid-column: 7/8;
+    }
+
+    .color-scheme {
+        display: flex;
+        justify-content: center;
+        padding-left: 1em;
+        grid-row: 10/11;
+        grid-column: 7/8;
+    }
+
+    .actual-color-scheme {
+        display: flex;
+        justify-content: center;
+        grid-row: 10/11;
+        grid-column: 8/10;
+    }
+
+    //Amazon style
+    .amazon-orange {
+        display: flex;
+        justify-content: center;
+        grid-row: 1/2;
+        grid-column: 8/10;
+        background-color: #f90;
+        border: 1px solid #000;
+    }
+
+    .amazon-darkblue {
+        display: flex;
+        justify-content: center;
+        grid-row: 2/3;
+        grid-column: 8/10;
+        background-color: #232f3e;
+        border: 1px solid #000;
+        color: #eaeded;
+    }
+
+    .amazon-black {
+        display: flex;
+        justify-content: center;
+        grid-row: 3/4;
+        grid-column: 8/10;
+        background-color: #131921;
+        color: #eaeded;
+        border: 1px solid #000;
+    }
+
+    .amazon-white {
+        display: flex;
+        justify-content: center;
+        grid-row: 5/6;
+        grid-column: 8/10;
+        background-color: #fff;
+        border: 1px solid #000;
+
+    }
+
+    .font-h3 {
+        display: flex;
+        justify-content: center;
+        grid-row: 7/8;
+        grid-column: 7/8;
+    }
+
+    .amazon-font {
+        display: flex;
+        justify-content: center;
+        grid-row: 7/8;
+        grid-column: 8/10;
+    }
+
+    //CDON style
+    .cdon-greenlogo {
+        display: flex;
+        justify-content: center;
+        grid-row: 1/2;
+        grid-column: 8/10;
+        background-color: #01c355;
+        border: 1px solid #000;
+    }
+
+    .cdon-darkgreen {
+        display: flex;
+        justify-content: center;
+        grid-row: 2/3;
+        grid-column: 8/10;
+        background-color: #2fc356;
+        border: 1px solid #000;
+        color: #eaeded;
+    }
+
+    .cdon-black {
+        display: flex;
+        justify-content: center;
+        grid-row: 3/4;
+        grid-column: 8/10;
+        background-color: #17242f;
+        color: #eaeded;
+        border: 1px solid #000;
+    }
+
+    .cdon-grey {
+        display: flex;
+        justify-content: center;
+        grid-row: 5/6;
+        grid-column: 8/10;
+        background-color: #f7f7f6;
+        border: 1px solid #000;
+    }
+
+    .cdon-pink {
+        display: flex;
+        justify-content: center;
+        grid-row: 6/7;
+        grid-column: 8/10;
+        color: #eaeded;
+        background-color: #fd0172;
+        border: 1px solid #000;
+    }
+
+    .cdon-font {
+        display: flex;
+        grid-row: 7/8;
+        grid-column: 8/10;
+    }
+
+    //Fyndiq style
+    .fyndiq-pinklogo {
+        display: flex;
+        justify-content: center;
+        grid-row: 1/2;
+        grid-column: 8/10;
+        background-color: #ea4e68;
+        border: 1px solid #000;
+    }
+
+    .fyndiq-darkblue {
+        display: flex;
+        justify-content: center;
+        grid-row: 2/3;
+        grid-column: 8/10;
+        background-color: #003b4d;
+        border: 1px solid #000;
+        color: #eaeded;
+    }
+
+    .fyndiq-red {
+        display: flex;
+        justify-content: center;
+        grid-row: 3/4;
+        grid-column: 8/10;
+        background-color: #922024;
+        color: #eaeded;
+        border: 1px solid #000;
+    }
+
+    .fyndiq-purple {
+        display: flex;
+        justify-content: center;
+        grid-row: 4/5;
+        grid-column: 8/10;
+        background-color: #8f43d6;
+        color: #eaeded;
+        border: 1px solid #000;
+    }
+
+    .fyndiq-blue {
+        display: flex;
+        justify-content: center;
+        grid-row: 5/6;
+        grid-column: 8/10;
+        color: #eaeded;
+        background-color: #0073bb;
+        border: 1px solid #000;
+    }
+
+    .fyndiq-light-blue {
+        display: flex;
+        justify-content: center;
+        grid-row: 6/7;
+        grid-column: 8/10;
+        color: #eaeded;
+        background-color: #00838a;
+        border: 1px solid #000;
+    }
+
+    .fyndiq-font {
+        display: flex;
+        justify-content: center;
+        grid-row: 7/8;
+        grid-column: 8/10;
+    }
+}

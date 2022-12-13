@@ -1,0 +1,38 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+@import '../../node_modules/normalize.css/normalize';
+
+@import 'dark-variables';
+@import 'blockquotes';
+@import 'code';
+@import 'background_body';
+@import 'navbar';
+@import 'technologies';
+@import 'mobile';
+@import 'singletech';
+@import 'report';
+
+.colors {
+    margin-bottom: 2em;
+    filter: grayscale($greyscale +10);
+}
+
+.load {
+    margin-bottom: 2em;
+    filter: grayscale($greyscale);
+}
+
+.design-principles {
+    filter: grayscale($greyscale);
+}
+// @import 'test';
+
+// npm run style  
+// .main {
+//     background-color: #808080;
+// }

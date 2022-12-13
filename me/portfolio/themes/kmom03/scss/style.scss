@@ -1,0 +1,21 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'background_body';
+@import 'navbar';
+@import 'technologies';
+@import 'mobile';
+@import 'singletech';
+@import 'report';
+@import 'footer';
+// @import 'test';
+//npm run style  
+//Fortsätt här https://dbwebb.se/kunskap/kom-igang-med-sass-och-npm-v2#variabler

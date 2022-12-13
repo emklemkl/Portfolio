@@ -1,0 +1,51 @@
+.header {
+    height: 3em;
+}
+
+.nav {
+    position: relative;
+    width: 45em;
+    left: 6em;
+    top: -6.5em;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav {
+    ul {
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+
+    a {
+        width: 70em;
+        margin: auto;
+        color: $font-color;
+        font-family: 'Poor Story', cursive;
+        text-decoration: none;
+        font-size: $text-size * 2;
+    }
+}
+
+.active a {
+    // Current page
+    color: $background-darker-color;
+    ;
+    text-shadow: 0.1em 0.1em 0.15em $background-darker-color;
+}
+
+.mouselogo {
+    max-width: 5%;
+    filter: hue-rotate($mouseLogoFilter);
+    height: auto;
+    object-position: right top;
+    float: right;
+    position: relative;
+    left: -2em;
+}

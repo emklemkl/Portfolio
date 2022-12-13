@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(170deg, $background-color 30%, $background-color-shift 59%, $background-darker-color 98%);
+    
+    width: 60em;
+    margin: 0 auto;
+    background-attachment: fixed;
+}
+
+* {
+    color: $font-color;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-right: 4em;
+    justify-content: center;
+}
+
+.container-head {
+    display: inline;
+    align-items: center;
+    margin-right: 4em;
+    justify-content: center;
+}
+
+.mepic img {
+    max-width: 60%;
+    height: auto;
+    border: 0.1em solid $font-alternative-color;
+    margin-left: 4em;
+
+}
+
+.me-text {
+    font-family: 'Poor Story', cursive;
+}
+
+.site-title {
+
+    font-family: 'Poor Story', cursive;
+    text-decoration: none;
+    border-bottom: 0.05em solid $font-alternative-color;
+    padding-bottom: 0.4em;
+}
