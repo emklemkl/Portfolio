@@ -1,16 +1,28 @@
 .colors {
     margin-bottom: 2em;
-    filter: hue-rotate($filterDegree);
+    filter: hue-rotate($filter-degree);
 
     h2 {
         color: $background-darker-color;
-        ;
+    }
+}
+
+.report-container {
+    position: relative;
+    top: 3em;
+    padding-bottom: 5em;
+}
+@media screen and (max-width: 767px) {
+    .report-container {
+        position: relative;
+        padding-bottom: 16em;
+        top: 14em;
     }
 }
 
 .load {
     margin-bottom: 2em;
-    filter: hue-rotate($filterDegree);
+    filter: hue-rotate($filter-degree);
 
     h2 {
         color: $background-darker-color;
@@ -19,15 +31,14 @@
 }
 
 .design-principles {
-    filter: hue-rotate($filterDegree);
+    filter: hue-rotate($filter-degree);
 
     h2 {
         color: $background-darker-color;
-        ;
     }
 }
 
-#reportMain {
+.report-main {
     display: flex;
     justify-content: center;
 }
@@ -251,4 +262,17 @@
         grid-row: 7/8;
         grid-column: 8/10;
     }
+}
+
+// LOAD
+
+.excel-load-data {
+    width: 80%;
+    height: 22em;
+}
+
+h4 {
+    padding-left: 1em;
+    padding-top: 1em;
+    border-top: 1px solid;
 }

@@ -1,0 +1,15 @@
+{% include 'incl/header.twig' %}
+<body>
+<div class="screen-width">
+    <div id="navbar">
+        {% include 'incl/nav.twig' %} 
+    </div>
+        <div class="main" role="main">
+            {% if meta.title == "Gallery" %}
+                    {{ content }}
+            {% endif %}
+        </div>
+        {% include 'incl/footer.twig' %}
+</div> 
+    </body>
+</html>

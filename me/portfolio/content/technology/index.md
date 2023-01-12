@@ -7,7 +7,6 @@ sidebar: false
 
 <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
 
-<!-- <div class="container">  -->
 <div class="title-box">
 <h2>Technologies</h2>
 </div>
@@ -39,7 +38,3 @@ sidebar: false
 <div class="tech-box sqlite">
 <a href = "%base_url%/technology/sqlite"><h2>SQLite </h2><img src="%base_url%/assets/img/sqlite.jpg" alt="SQlite"></a>
 </div>
-<!-- <div class="mepic"> <img  src="./assets/img/mepic.jpg" alt="alt text" title="Title" /> -->
-</div>
-
-<!-- </div> -->

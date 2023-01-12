@@ -32,6 +32,10 @@
         overflow-x: hidden;
     }
 
+    .container {
+        margin-top: 13em;
+    }
+
     body {
         position: relative;
         padding-left: 0.5rem;
@@ -47,6 +51,7 @@
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: repeat(1, 1fr);
         gap: 1.5rem;
+        margin-top: 6em;
     }
 
     .title-box {

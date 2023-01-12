@@ -5,10 +5,10 @@
     justify-content: center;
     background-color: $footer;
     border: 6px outset $background-darker-color;
+    margin-top: 2em;
     
     .social a i {
-        padding: 0 0.5em 0 0.5em;
+        padding: 0 0.5em;
         color: $font-alternative-color !important;
     }
-    margin-top: 2em;
 }

@@ -1,0 +1,99 @@
+.gallery-grid {
+    
+    background-color: $background-color;
+    padding: 2em;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 2em;
+    border-bottom: 2px solid $background-darker-color;
+    border-radius: 0.5em;
+
+    img,
+    embed,
+    object,
+    video {
+        max-width: 100%;
+    }
+
+    img {
+        width: 100%;
+        border: 1px solid #000;
+        border-radius: 0.3em;
+    }
+
+    img:hover {
+        box-shadow: 0.3em 0.3em 0.7em 1em $background-darker-color;
+    }
+}
+
+.embed-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 12em;
+    padding-top: 0.5em;
+    left: -1.5em;
+    padding-bottom: 10em;
+    background-color: $background-color;
+    border-radius: 0.3em;
+    margin-top: 2em;
+    border-bottom: 2px solid $background-darker-color;
+
+    .embedded-video {
+        border-radius: 0.3em;
+        position: absolute;
+        width: 80%;
+        height: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .gallery-grid {
+        margin-top: 14em;
+        background-color: $background-color;
+        width: 80%;
+        padding: 2em;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 1.5em;
+        border-top: 2px solid $background-color-shift;
+        border-bottom: 2px solid $background-darker-color;
+        border-radius: 0.5em;
+        align-items: center;
+    }
+
+    
+    .embed-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80vw;
+        height: 18em;
+        padding-top: 0.5em;
+        left: -1em;
+        padding-bottom: 10em;
+        background-color: $background-color;
+        border-radius: 0.3em;
+        margin-top: 2em;
+    
+        .embedded-video {
+            border-radius: 0.3em;
+            position: absolute;
+            width: 80%;
+            height: 80%;
+        }
+        
+    }
+
+    .screen-width {
+        width: 100%;
+    }
+}

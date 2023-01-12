@@ -1,6 +1,7 @@
 ---
 Title: Color Report
 Description: This is my report page.
+Template: report
 ---
 
 Färganalys av e-shoppingplattformer i Sverige

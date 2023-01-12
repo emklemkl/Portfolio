@@ -16,10 +16,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'mobile';
 @import 'singletech';
 @import 'report';
+@import 'gallery';
+@import 'footer';
 
 .colors {
     margin-bottom: 2em;
-    filter: grayscale($greyscale +10);
+    filter: grayscale($greyscale + 10);
 }
 
 .load {
@@ -29,6 +31,14 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 .design-principles {
     filter: grayscale($greyscale);
+}
+
+.gallery-img {
+    filter: grayscale($greyscale + 10);
+}
+
+.embedded-video {
+    filter: grayscale($greyscale + 10);
 }
 // @import 'test';
 

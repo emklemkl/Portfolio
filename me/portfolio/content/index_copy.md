@@ -1,6 +1,7 @@
 ---
 Title: Test 
 Icon: ' '
+Hidden: true
 ---
 
 <p class="old-fashioned">
