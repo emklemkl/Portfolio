@@ -4,7 +4,8 @@ Description: This is my report page.
 Template: report
 sidebar: false
 ---
-
+<div class="report-container">
+</div>  
 Undersökning av designprinciper
 =======================
 
@@ -12,7 +13,7 @@ Tre olika personsidor (musiker) kommer jämföras mot designprinciper för att s
 
 Urval
 -----------------------
-Urvalet består av två av mina personliga favoritsångare och deras hemsidor samt, för att lämna 'the comfort zone' och vidga mina vyer, en tredje sångerska vars musikaliska stil faller utanför min musiksmak. OBS vissa av artisterna har ändrat sin sida sedan jag skrev denna rapporten (någon gång i december) så jag skicka med en länk till web.archive under varje artist på hur sidan ungefär såg ut då.
+Urvalet består av två av mina personliga favoritsångare och deras hemsidor samt, för att lämna 'the comfort zone' och vidga mina vyer, en tredje sångerska vars musikaliska stil faller utanför min musiksmak. OBS vissa av artisterna har ändrat sin sida sedan jag skrev denna rapporten (någon gång i december) så jag skickar med en länk till web.archive under varje artist på hur sidan ungefär såg ut då.
 
 - [screamforme.com](https://www.screamforme.com/)
   Bruce Dickinson, sångare i Iron Maiden, entreprenör, talare och pilot.
@@ -32,7 +33,7 @@ Jag kommer gå igenom hemsidorna (främst startsidan) för att undersöka om dem
 
 Resultat
 -----------------------
-<h4>George Fisher (GF)</h4>
+<h3>George Fisher (GF)</h3>
 <picture>
     <img src="%base_url%/image/cgdesignprinc.png?w=40%" alt="Corpsegrinder hemsida">
 </picture>
@@ -41,7 +42,7 @@ Första intrycket ger en ganska mörk känsla vilket troligtvis är vad artisten
 och stödjer 'taggarna utåt'-temat. Den tydliga kontrasten lyckas av naturliga skäl att dra ögonen till det som vill visas. <br>
 Jag får känslan av att sidan lyckas ge det mörka passande intryck dem verkar jobba mot, med hjälp av dess design och simpla färgval. Sen kan man uppleva att det är en relativt ointressant hemsida till utseendet då den huvudsakligen består av kontraster mellan svart, rött och en hero-bild. Är man inte intressad av artisten i sig så får man direkt känslan av att 'okej, så här ser denna sidan ut' och sen tappar man intresset för sidan. Resten av sidan (under 'above the fold') går ifrån hero-bilden och är ganska fyrkantigt/balanserat byggd och bjuder inte in till några större överraskningar utan radar upp bilder/videos/text på ett galleriliknande sätt. Sidan hade troligtvis kunnat ha kvar sin mörka känsla även om man använt slängt in någon passande accentfärg.
 
-<h4>Bruce Dickinson (BD)</h4>
+<h3>Bruce Dickinson (BD)</h3>
 
 <picture>
     <img src="%base_url%/image/bddesignprinc.png?w=40%" alt="Bruce Dickinson hemsida">
@@ -53,11 +54,11 @@ har sin plats. Man har försökt balansera det kantiga och symmetriska med en li
 Scrollar man ner på hemsidan så blir man fortsatt mött av rektangulära/kvadratiska indelningar av innehållet samtidigt som man valt att skala upp och ner olika bilder/eventinfo beroende på relevans. Sidan upplevs lite mer dynamisk när man scrollar ner och man bryter ibland med bredare textrutor eller bilder samt ett galleri med album/sololåtar från artisten. 'Above the fold'-delen av sidan upplevs ganska 'stel' och jag upplever att ju mer man scrollar ner på sidan så speglas mer och mer BD som artist, varav den översta delen mer speglar en 'mystisk snubbe'. Känslan jag får av sidan är att den både lyckas spegla BD som person och som artist. Samtidigt är sidan, likt föregående (George Fisher), ganska tråkig i sin färgpalett, alla vill såklart inte ha skrikande glada färger, men mycket mörka färger ger även ett mindre intressant intryck än motsatsen och jag får känslan av det kan vara svårt att sätta fingret på var balansgången mellan färger går. </p>
 
 
-<h4>Adele (AD)</h4>
+<h3>Adele (AD)</h3>
 <picture>
 <img src="%base_url%/image/adeledesignprinc.png?w=40%" alt="Adele hemsida">
 </picture>
-<p>AD:s sida verkar användas för att marknadsföra artisten samt hänvisa till evenemang och sälja merch. När vi går in på sidan möts vi (som vanligt nu för tiden?) av en 'above-the-fold'-hero-bild på artisten. Första intrycket ger en känsla av djup och stillsamhet som inte triggar några direkta känslor av att något är off. Text/rubrik och länkar är balanserat placerade med jämn fördelning över båda sidor av hero-bildens centrum. Inledningsvis låter det ju som en perfekt hemsida. Men att man inte tagit ut svängarna och slaviskt hållt sig till balanserade och extremt symmentriska 'safe cards' gör ävan sidans upplevs opersonlig och det är lite svårt att avgöra om jag tittar på ett resorthotell på Lanzarotes hemsida eller en artists. Även om sidan innehåller det som mänskliga ögat uppskattar (framför allt balans och en viss symetrisk känsla) för att den, rent objektivt, ska ses som bra/fin så säger inte sidans första intryck så mycket om artisten i sig. En stor del av att vara just artist är att kunna uttrycka sig och det upplever jag inte att sidan indeldningsvis gör. Eller, så gör den det, det är helt klart en viss utmaning att var objektiv då det inte är min stil av artist. Men samtidigt som sidan inlednigsvis är ganska avslappnad och överskriften lyder "I drink wine" i samband med att dem länkar till en ny musikvideo. Så kan ju mycket väl önskad avslappnad/chill-känsla förmedlas genom hemsidan till besökaren<br>
+<p>AD:s sida verkar användas för att marknadsföra artisten samt hänvisa till evenemang och sälja merch. När vi går in på sidan möts vi (som vanligt nu för tiden?) av en 'above-the-fold'-hero-bild på artisten. Första intrycket ger en känsla av djup och stillsamhet som inte triggar några direkta känslor av att något är off. Text/rubrik och länkar är balanserat placerade med jämn fördelning över båda sidor av hero-bildens centrum. Inledningsvis låter det ju som en perfekt hemsida. Men att man inte tagit ut svängarna och slaviskt hållt sig till balanserade och extremt symmentriska 'safe cards' gör ävan sidans upplevs opersonlig och det är lite svårt att avgöra om jag tittar på ett resorthotell på Lanzarotes hemsida eller en artists. Även om sidan innehåller det som mänskliga ögat uppskattar (framför allt balans och en viss symetrisk känsla) för att den, rent objektivt, ska ses som bra/fin så säger inte sidans första intryck så mycket om artisten i sig. En stor del av att vara just artist är att kunna uttrycka sig och det upplever jag inte att sidan indeldningsvis gör. Eller, så gör den det, det är helt klart en viss utmaning att var objektiv då det inte är min stil av artist. Men samtidigt som sidan inlednigsvis är ganska avslappnad och överskriften lyder "I drink wine" i samband med att dem länkar till en ny musikvideo. Så kan ju mycket väl önskad avslappnad/chill-känsla förmedlas genom hemsidan till besökaren, typ "drick lite vin och kolla på min nya musikvideo".<br>
 AD:s sida blir mer personlig ju längre ner man scrollar men går inte ifrån den linjära och strikta centrumplaceringen av innehållet. Den besitter som konsekvens en bra vertikal rytm som är trevlig mot ögonen när man skrollar. 
 Man får lite känslan att den som designat hemsidan satte sig i mitten på gungbrädan för då kan man inte tippa över. Sidan behåller sin nästa överdrivna balans och symmetri genom hela skrollningen. Vilket ser snyggt ut men det sticker inte ut, och det tänker jag mig att kända artister vill göra.</p>
 
@@ -71,14 +72,16 @@ Sammanfattningsvis drar jag slutsatsen av denna ministudie att om man lyckas ska
 
 Analys av min egna sida
 -----------------------
-Min sida använder tydliga linjer och former för att avgränsa och visa material på ett 'en i taget-sätt'. Vissa av sidorna ger det här lite kantiga och symmetriska intrycket som är snällt mot ögonen men som samtidigt upplevs lite massproducerat. Den största boven jag själv hittar när jag bläddrar runt på min sida är att många sidor har en dålig vertikal rytm. Dem känns inte alls lika naturliga att skrolla i som tex Adeles hemsida gjorde. Jag hittar flertalet ställen där avståndet mellan kolumner, headers, bilder och andra element har stora och varierande skillnader som i sin tur leder till en obalanserad och ryckig känsla. Att balansera ut avstånden mellan texter och element både vertikal och horisontalt är utan tvekan den största och tydligaste förbättringen jag skulle kunna göra. Det jag tycker är bra med min sida är att jag inte varit rädd för att använda mycket färg. Jag har både försökt kombinera bildernas färger med mitt generella färgtema på sidan, med hjälp av färghjulet så har det blivit helt okej. Men denna analys ska inte handla så mycket om just färg så det hjälper mig inte så mycket i detta fallet. <br>
+Min sida använder tydliga linjer och former för att avgränsa och visa material på ett 'en i taget-sätt'. Vissa av sidorna ger det här lite kantiga och symmetriska intrycket som är snällt mot ögonen men som samtidigt upplevs lite massproducerat. Den största boven jag själv hittar när jag bläddrar runt på min sida är att många sidor har en dålig vertikal rytm och en allmänt opassande typografi. Dem känns inte alls lika naturliga att skrolla i som tex Adeles hemsida gjorde. Jag hittar flertalet ställen där avståndet mellan kolumner, headers, bilder och andra element har stora och varierande skillnader som i sin tur leder till en obalanserad och ryckig känsla. Att balansera ut avstånden mellan texter och element både vertikal och horisontalt är utan tvekan den största och tydligaste förbättringen jag skulle kunna göra. Det jag tycker är bra med min sida är att jag inte varit rädd för att använda mycket färg. Jag har både försökt kombinera bildernas färger med mitt generella färgtema på sidan, med hjälp av färghjulet så har det blivit helt okej. Men denna analys ska inte handla så mycket om just färg så det hjälper mig inte så mycket i detta fallet. <br>
 Det kantiga tillvägagångssät jag haft på min sida är både på gott och ont. Tydliga linjer gör det tydligt vad man bör göra, men det kan samtidigt ge ett stelbent intryck som inte alltid är önskvärt. Ser jag detta som min egen personsida så anser jag absolut inte att jag är stelbent utan snarare tvärt om, jag gillar nya saker. Ur det perspektivet har jag misslyckats med att representera mig själv på startsidan, vilket jag noterar till framtida projekt. Min navbar har en balanserad och fyrkantig from som inte tar så mycket plats. Vilket jag tycker är en fördel på min sida då navbaren inte innehåller speciellt viktiga funktioner för  besökare och därmed gör nytta genom att se lite mindre intressant ut och hålla sig i bakgrunden.
 
 Referenser
 -----------------------
 
-[1 canva.com](https://www.canva.com/learn/design-elements-principles/)  
-[2 dbwebb.se/article/vl.pdf](https://dbwebb.se/article/vl.pdf)
+[1. canva.com](https://www.canva.com/learn/design-elements-principles/)  
+[2. dbwebb.se/article/vl.pdf](https://dbwebb.se/article/vl.pdf)
+[3. https://typographyhandbook.com](https://typographyhandbook.com/)
+
 
 Övrigt
 -----------------------

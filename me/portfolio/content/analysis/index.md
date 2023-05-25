@@ -5,8 +5,6 @@ Template: report
 sidebar: true
 ---
 <div class="report-container">
-<div class="title-box">
-</div>
 
 <div class="tech-box colors">
 <a href = "%base_url%/analysis/01_colors"><h2>Color Report </h2><img src="%base_url%/image/css.jpg?q=50" alt="Colors">
