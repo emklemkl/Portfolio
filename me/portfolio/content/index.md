@@ -5,7 +5,7 @@ Description: This is our index page.
 
 <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
     
-<div class="mepic"> <img  src="./assets/img/mepic.jpg" alt="alt text" title="Title" />
+<div class="mepic"> <img  src="%base_url%/image/mepic.jpg?q=50" alt="alt text" title="Title" />
 </div>
 <div class="me-text">
 <h2>Om mig</h2>

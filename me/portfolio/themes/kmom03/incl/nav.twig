@@ -4,7 +4,7 @@
     <div class="site-header">
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
-            <a href="{{ base_url }}">
+            <a href="{{ base_url }}" aria-label="Home page Emil K">
                 {% if meta.Icon != ' ' %}
                 <img class="mouselogo" src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
                 {% endif %}

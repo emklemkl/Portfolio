@@ -17,6 +17,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'singletech';
 @import 'report';
 @import 'footer';
+img:not([alt]) {
+    outline: 4px red dashed !important;
+}
 // @import 'test';
 //npm run style  
 //Fortsätt här https://dbwebb.se/kunskap/kom-igang-med-sass-och-npm-v2#variabler

@@ -4,6 +4,10 @@
     grid-template-rows: 1fr;
 }
 
+pre {
+    background-color: $code-snippet-back-color;
+}
+
 
 .sidebar {
     margin-top: 1.5em;
@@ -17,7 +21,6 @@
     }
     
     a {
-        padding-left: 0.5em;
         font-size: 2em;
         text-decoration: none;
     }
