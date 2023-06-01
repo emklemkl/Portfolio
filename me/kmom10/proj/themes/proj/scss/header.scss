@@ -1,0 +1,88 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'mobile';
+@import 'typography';
+@import 'footer';
+@import 'grid';
+
+
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    // gap: 4rem;
+    padding: 0.7rem;
+    justify-content: space-between;
+    padding-left: 1rem;
+    align-items: center;
+}
+
+.header {
+    // background: linear-gradient(45deg, #f8f7f7 84%, lighten($darker-gold, 10) 85%);
+    background: linear-gradient(45deg, #f8f7f7 20%, darken(#c5c5c5, 5) 75%);
+
+    .nav {
+        height: 4rem;
+    }
+    .logo {
+        // max-width: 40%;
+        height: 100%;
+        position: relative;
+        z-index: 666;
+        border-radius: 0.2rem;
+    }
+
+    #toggler {font-size: 2rem;}
+
+    p {
+        font-size: 2rem;
+        font-family: 'Alex Brush', cursive;
+        margin-bottom: -0.7rem;
+        padding-right: 1rem;
+        line-height: 1.8rem;
+    }
+
+    i {
+        width: 8rem;
+    }
+
+}
+.nav ul {
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    padding: 1em 0;
+    font-size: 2rem;
+    list-style: none;
+    z-index: 667;
+    // background-color: rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient( rgb(175, 175, 175, ), rgba(255, 255, 255, 0.96));
+    font-family: 'Alex Brush', cursive;
+    align-items: center;
+    border-radius: 0.4rem;
+    
+    a {
+        color: $font-color-black;
+        text-decoration: none;
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}

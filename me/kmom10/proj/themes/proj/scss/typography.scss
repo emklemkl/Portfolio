@@ -1,0 +1,35 @@
+body {
+    line-height: $base-line-height;
+    // padding: ($vertical-rhythm * 2) 2rem;
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $vertical-rhythm;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: $vertical-rhythm * 2;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: $vertical-rhythm;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: $vertical-rhythm;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-bottom: 0.2rem;
+}
+
+.bigger-font {
+    font-size: $base-font-size + 0.1rem;
+}
+

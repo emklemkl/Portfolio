@@ -1,0 +1,30 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint \"**/*.scss\"",
+    "watch": "sass proj/scss/style.scss:proj/css/style.css --no-source-map --watch",
+    "watch-min": "sass proj/scss/style.scss:proj/css/style.min.css proj/scss/style-dark.scss:proj/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass proj/scss/style-dark.scss proj/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass proj/scss/style-dark.scss proj/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass proj/scss/style.scss proj/css/style.css --no-source-map",
+    "style-light-min": "sass proj/scss/style.scss proj/css/style.min.css --no-source-map --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.56.2",
+    "stylelint": "^14.14.1",
+    "stylelint-config-sass-guidelines": "^9.0.1"
+  }
+}

@@ -1,0 +1,34 @@
+{% include 'incl/header.twig' %}
+<body>
+<div class="screen-width">
+    <div id="navbar">
+        {% include 'incl/nav.twig' %} 
+    </div>
+        <div class="main" role="main">
+            {% if meta.sidebar %}
+                <div class="singletech">
+                    <div class="sidebar">
+                    {% for page in pages("technology") if page.title and not page.hidden %}
+                    <ul>
+                        <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                            <a href="{{ page.url }}" aria-label="The sidabar for the tecchnology page">{{ page.title }}</a>
+                        </li>
+                    </ul>
+                    {% endfor %}
+                    </div>
+                    <div class="techinfo">
+                        {{ content }}
+                    </div>
+                </div>
+            {% endif %}
+
+        {% if meta.title == "Technologies" %}
+            <div class="landingpage">
+                {{ content }}
+            </div>
+        {% endif %}
+        </div>
+        {% include 'incl/footer.twig' %}
+</div> 
+    </body>
+</html>
