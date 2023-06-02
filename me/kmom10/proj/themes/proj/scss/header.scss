@@ -53,7 +53,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
         width: 8rem;
     }
 
+    i:hover {
+        cursor: pointer;
+    }
 }
+
 .nav ul {
     display: flex;
     flex-direction: column; 
@@ -67,7 +71,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     font-family: 'Alex Brush', cursive;
     align-items: center;
     border-radius: 0.4rem;
-    
+
     a {
         color: $font-color-black;
         text-decoration: none;
@@ -76,13 +80,48 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 }
 
 @media (max-width: 767px) {
-    .title, .logo {
-        padding: 1em 1em 1em 0;
-    }
-    .title {
-        min-width: 50%;
-    }
+    // .title, 
     .logo {
-        max-width: 30%;
+        padding: 0 0.7em 0 0;;
+    }
+    // .title {
+    //     min-width: 50%;
+    // }
+    .logo {
+        max-width: 100%;
+    }
+
+    .header {
+        flex-direction: row;
+        background: linear-gradient(45deg, #f8f7f7 20%, darken(#c5c5c5, 5) 75%);
+    
+        .nav {
+            height: 4rem;
+        }
+        .logo {
+            // max-width: 40%;
+            height: 100%;
+            position: relative;
+            z-index: 666;
+            border-radius: 0.2rem;
+        }
+    
+        #toggler {font-size: 2rem;}
+    
+        p {
+            font-size: 2rem;
+            font-family: 'Alex Brush', cursive;
+            margin-bottom: -0.7rem;
+            padding-right: 1rem;
+            line-height: 1.8rem;
+        }
+    
+        i {
+            width: 2em;
+        }
+
+        u {
+            padding-right: 0.7rem;
+        }
     }
 }

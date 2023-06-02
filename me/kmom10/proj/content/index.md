@@ -18,13 +18,13 @@ Description: This is our index page.
         <!-- <a href="%base_url%/team" class="button">Möt vårt team</a> -->
     </div>
 </div>
-<h2>Behöver du juridisk rådgivning?</h2>
+<h2>Har du behov av juridisk rådgivning?</h2>
 <div class="four-grid2 top-grid-text">
 <article>
 <p class="bigger-font"><b>Du</b> är mer än välkommen att <a href="%base_url%/team">kontakta<a> vårt kunniga och erfarna team. Vi har många 
 olika områdesspecialister och vi kan därmed ta oss an allt från konsumenttvister till miljörättsfrågor och mycket mer. Tveka inte att höra av dig 
 till våra jurister eller vår växel(123123123) om du har någon fråga</p>
-        <a  href="%base_url%/team"><h3>Kontakta oss!</h3></a>
+        <a  href="%base_url%/team"><h3 class="button">Kontakta oss!</h3></a>
 </article>
 <picture>
     <source media="(min-width: 767px)" srcset="image/talking-women.jpg"><!--?w=350&h=300&q=55&crop-to-fit-->

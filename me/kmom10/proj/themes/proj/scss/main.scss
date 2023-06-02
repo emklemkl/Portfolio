@@ -1,0 +1,136 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+img:not([alt]) {
+    outline: 4px red dashed !important;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    // height: 100%;
+    background: linear-gradient(90deg, #f8f7f7 30%, #c5c5c5 85%);
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 246, 243);
+    // background-image: linear-gradient(rgb(255, 254, 254), #bbc1ff) ;
+}
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+
+// To manage hero imgage size in non mobile mode betwqeen 768-1500px
+@media screen and (min-width: 768px) {
+    .hero-container {
+    margin-bottom: $vertical-rhythm;
+    border-bottom: $dark-blue solid 1px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+
+    .welcome-view {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 10 ;
+        top: 20%;
+        bottom: 50%;
+        // min-height: 40%;
+        height: 20rem;
+        left: 43%;
+        border-radius: 0.3rem;
+        background-color: rgba(255, 255, 255, 0.2);;
+        padding: 0.4rem 0.4rem;
+        gap: $vertical-rhythm;
+    }
+    
+    .welcome-img {
+        border-radius: 0.3rem;
+        max-width: 80%;
+        margin-top: -1.5rem;
+    }
+
+    h1 {
+        padding-top: 0.5rem;
+        background-image: linear-gradient( $darker-gold, $light-gold, $darkest-gold);
+        background-clip: text;
+        
+        -webkit-background-clip: text;
+        color: transparent;
+        font-family: 'Alex Brush', cursive;
+        font-family: 'PT Sans', sans-serif;
+        
+        padding: 0 0.4rem;
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        margin-bottom: -0.4rem;
+        // text-shadow: 1px 1px 2px $darker-gold;
+        color: $font-color-black;
+        font-family: 'Alex Brush', cursive;
+        padding: 0 0.4rem;
+        font-size: 4rem;
+    }
+
+    a {
+        font-size: 3rem;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    }
+}
+@media screen and (min-width: 1500px) {
+    .hero-container {
+        margin-bottom: $vertical-rhythm (+0.4rem);
+        
+        .welcome-view {
+            left: 50%;
+        }
+
+        h2 {
+            margin-bottom: -0.4rem;
+            // text-shadow: 1px 1px 2px $darker-gold;
+            color: $font-color-black;
+            font-family: 'Alex Brush', cursive;
+            padding: 0 0.4rem;
+            font-size: 4rem;
+        }
+
+        .welcome-img {
+            border-radius: 0.3rem;
+            max-width: 80%;
+            margin-top: -1.5rem;
+        }
+    }
+}
