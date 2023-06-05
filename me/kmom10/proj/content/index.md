@@ -23,8 +23,8 @@ Description: This is our index page.
 <article>
 <p class="bigger-font"><b>Du</b> är mer än välkommen att <a href="%base_url%/team">kontakta<a> vårt kunniga och erfarna team. Vi har många 
 olika områdesspecialister och vi kan därmed ta oss an allt från konsumenttvister till miljörättsfrågor och mycket mer. Tveka inte att höra av dig 
-till våra jurister eller vår växel(123123123) om du har någon fråga</p>
-        <a  href="%base_url%/team"><h3 class="button">Kontakta oss!</h3></a>
+till våra advokater eller vår växel (123123123) för hjälp.</p>
+        <a href="%base_url%/team"><h3 class="button">Kontakta oss!</h3></a>
 </article>
 <picture>
     <source media="(min-width: 767px)" srcset="image/talking-women.jpg"><!--?w=350&h=300&q=55&crop-to-fit-->
